@@ -1,0 +1,54 @@
+.main-fourthFondo {
+    width: 100%;
+    height: 52.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../../assets/cuartoFondo.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-fourthFondo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: #FFE3C5;
+}
+
+.main-fourthFondo-container h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.main-fourthFondo-container h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-fourthFondo-container p {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    margin: 30px 0px;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 100%;
+
+}
+
+.thanks {
+    font-size: 1.5rem !important;
+    font-family: 'Playfair Display', serif !important;
+}
