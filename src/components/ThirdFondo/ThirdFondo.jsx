@@ -8,7 +8,7 @@ const ThirdFondo = () => {
         <section className='main-thirdFondo'>
 
             <div className='main-thirdFondo-container'>
-                <h1>Nuestro</h1>
+                <h1>Nuestra</h1>
                 <h1 className='third-titulo'>Celebración</h1>
 
                 <p>Esperamos contar con su presencia para hacer <br /> de este día aún más especial.</p>
