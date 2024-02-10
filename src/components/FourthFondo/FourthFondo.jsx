@@ -11,7 +11,7 @@ const FourthFondo = () => {
         <div className='main-fourthFondo-container'>
             <h1>GUSTAVO & NATALÍ</h1>
 
-            <a href="" className="contenedor-mapa-enlace">
+            <a href="https://www.waze.com/es/live-map/directions?from=place.w.187367472.1873478109.17030959" className="contenedor-mapa-enlace">
 
                 <img src={mapa} alt="" className="mapa"/>
                 
