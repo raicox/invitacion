@@ -35,7 +35,7 @@ const FirstFondo = () => {
                 <h1>Natalí</h1>
                 <h2>14.03.24</h2>
                 <h2>
-                    {timeLeft.days} D - {timeLeft.hours} H - {timeLeft.minutes} M
+                    {timeLeft.days} D - {timeLeft.hours} H - {timeLeft.minutes} M - {timeLeft.seconds} S
                 </h2>
                 <p>¡GRACIAS POR SER PARTE DE NUESTRA HISTORIA!</p>
             </div>

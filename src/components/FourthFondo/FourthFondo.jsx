@@ -1,6 +1,6 @@
 import { SiWaze } from "react-icons/si";
 import mapa from '../../assets/mapa.png'
-import { FaWhatsapp } from "react-icons/fa";
+
 import { FaEnvelope } from "react-icons/fa";
 import './fourthFondo.css'
 
@@ -25,12 +25,6 @@ const FourthFondo = () => {
 
             <p className="parcela">PARCELA 39 GLOBO 2 UN DULCE CIELO <br /> VEREDA PARCELAS</p>
             <h2>14.03.24</h2>
-            <div className="whatsapp">
-                <a href="https://wa.me/573124952690">
-                    <FaWhatsapp size="2rem" className="svg"/>
-                    <h2>312 495 2690</h2>
-                </a>
-            </div>
 
             <div className="lluvia">
                 <FaEnvelope />

@@ -1,4 +1,5 @@
 import segundaFoto from '../../assets/segundaFoto.jpg'
+import { FaWhatsapp } from "react-icons/fa";
 import './thirdFondo.css'
 
 const ThirdFondo = () => {
@@ -22,6 +23,13 @@ const ThirdFondo = () => {
                 </div>
 
                 <p className='hora-text-third'>Para confirmar tu asistencia, por favor compártenos tu número de documento. Agradecemos de antemano tu participación y esperamos ansiosos este día tan significativo.</p>
+
+                <div className="whatsapp">
+                <a href="https://wa.me/573124952690">
+                    <FaWhatsapp size="2rem" className="svg"/>
+                    <h2>312 495 2690</h2>
+                </a>
+            </div>
             </div>
 
 

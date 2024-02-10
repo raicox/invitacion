@@ -20,6 +20,7 @@ const SecondFondo = () => {
                 <h3>LUGAR</h3>
                 <p className='hora-text'>Parcela 39 globo 2 <br /> Un dulce Cielo, <br /> VEREDA PARCELAS <br /></p>
                 <p className='hora-titulo'>3:00 PM</p>
+                <p className='puntuliadad'>contamos con tu puntualidad</p>
             </div>
 
 

@@ -73,4 +73,10 @@
     font-size: 2rem !important;
     font-weight: 900 !important;
     color: #2d2924;
+    margin-bottom: 0px !important;
+}
+
+.puntuliadad {
+    margin: 0px !important;
+    font-size: 1rem !important;
 }
