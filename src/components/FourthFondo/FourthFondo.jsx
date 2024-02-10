@@ -1,3 +1,7 @@
+import { SiWaze } from "react-icons/si";
+import mapa from '../../assets/mapa.png'
+import { FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import './fourthFondo.css'
 
 const FourthFondo = () => {
@@ -6,16 +10,32 @@ const FourthFondo = () => {
         <section className='main-fourthFondo'>
         <div className='main-fourthFondo-container'>
             <h1>GUSTAVO & NATALÍ</h1>
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0583659396934!2d-74.12978072502031!3d4.75986309521537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f83361be944f7%3A0x49cf5777716573d8!2sParcela%2023%20Globo%202!5e0!3m2!1ses-419!2sco!4v1707520385997!5m2!1ses-419!2sco"
-            width="300"
-            height="300"
-            style={{ border: '0' }}
-            allowFullScreen=""
-            loading="lazy"
-        ></iframe>
-            <p>PARCELA 39 GLOBO 2 UN DULCE CIELO <br /> VEREDA PARCELAS</p>
+
+            <a href="" className="contenedor-mapa-enlace">
+
+                <img src={mapa} alt="" className="mapa"/>
+                
+                <div className="contenedor-mapa">
+
+                    <SiWaze size="2rem"/>
+                    <h2>Ir a la ubicación</h2>
+
+                </div>
+            </a>
+
+            <p className="parcela">PARCELA 39 GLOBO 2 UN DULCE CIELO <br /> VEREDA PARCELAS</p>
             <h2>14.03.24</h2>
+            <div className="whatsapp">
+                <a href="https://wa.me/573124952690">
+                    <FaWhatsapp size="2rem" className="svg"/>
+                    <h2>312 495 2690</h2>
+                </a>
+            </div>
+
+            <div className="lluvia">
+                <FaEnvelope />
+                <h2>Lluvia de sobres</h2>
+            </div>
             <p className='thanks'>¡GRACIAS POR SER PARTE <br /> DE NUESTRA HISTORIA!</p>
         </div>
     </section>

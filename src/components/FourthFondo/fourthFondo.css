@@ -52,3 +52,76 @@ iframe {
     font-size: 1.5rem !important;
     font-family: 'Playfair Display', serif !important;
 }
+
+
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.svg {
+    padding-top:14px;
+    height:40px;
+}
+
+a {
+    display: flex;
+    color: #FFE3C5;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.mapa {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+.contenedor-mapa {
+    display: flex;
+}
+
+ /* Svg */
+ #root .contenedor-mapa svg{
+    height:45px;
+    margin-right: 10px;
+   }
+
+   .contenedor-mapa-enlace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif !important;
+   }
+
+.lluvia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+  
+}
+
+.lluvia h2 {
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+}
+   
+
+.lluvia svg {
+    height: 43px;
+    padding-top: 3px;
+    margin-right: 10px;
+}
+
+#root .main-fourthFondo-container p{
+    margin-top:10px;
+   }
+
+   .parcela {
+    margin-top: 20px !important;
+   }

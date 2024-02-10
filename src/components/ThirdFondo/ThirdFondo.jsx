@@ -11,10 +11,10 @@ const ThirdFondo = () => {
                 <h1>Nuestra</h1>
                 <h1 className='third-titulo'>Celebración</h1>
 
-                <p>Esperamos contar con su presencia para hacer <br /> de este día aún más especial.</p>
+                <p>Esperamos contar con tu presencia para hacer <br /> de este día aún más especial.</p>
 
                 <h2>DRESS CODE</h2>
-                <span><b>Formal.</b></span>
+                <span><b>Formal, nos importa tu comodidad y elegancia.</b></span>
                 <span>No usar blanco ni azul.</span>
 
                 <div className='imagen-third'>
